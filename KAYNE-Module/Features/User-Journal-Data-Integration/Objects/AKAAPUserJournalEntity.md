@@ -6,19 +6,45 @@
 
 | Field Name | Type | Mandatory | Description |
 |------------|------|-----------|-------------|
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
+| Name | N/A |  |  |
+| JournalName | N/A |  |  |
+| User | N/A |  |  |
+| Id | N/A |  |  |
+| company | N/A |  |  |
+| PersonnelNumber | N/A |  |  |
 
 ## Methods
 
 | Method Name | Static | Return Type | Parameters |
 |-------------|--------|-------------|------------|
-|  |  | void | none |
+| AKAValidateInvoice | ✓ | boolean | none |
+
+## Declaration Code
+
+```xpp
+
+public class AKAAPUserJournalEntity extends common
+{
+
+}
+
+```
+
+## Key Methods Source
+
+### AKAValidateInvoice
+
+```xpp
+
+    [SysODataAction('AKAValidateInvoice', false)]
+    public static boolean AKAValidateInvoice(DataAreaId _dataAreadId, VendAccount _vendor, InvoiceId _invoiceId)
+    {
+        return VendTable::AKAValidateInvoice(_dataAreadId, _vendor, _invoiceId);
+    }
+
+
+```
 
 ---
 
-*Generated on 2025-10-17 13:33*
+*Generated on 2025-10-17 15:42*

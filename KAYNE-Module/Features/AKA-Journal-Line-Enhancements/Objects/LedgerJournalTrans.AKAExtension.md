@@ -8,18 +8,18 @@
 
 | Field Name | Type | Mandatory | Description |
 |------------|------|-----------|-------------|
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
+| AKALedgerDefaultDimension | N/A |  |  |
+| AKALedgerDefaultAccountType | N/A |  |  |
+| AKALedgerOffsetDefaultDimension | N/A |  |  |
+| AKALedgerOffsetDefaultAccountType | N/A |  |  |
 
 ## Relations
 
 | Relation Name | Related Table | Cardinality |
 |---------------|---------------|-------------|
-|  | N/A | N/A |
-|  | N/A | N/A |
+| AKALedgerDefaultDimension | DimensionAttributeValueCombination | ZeroMore |
+| AKALedgerOffsetDefaultDimension | DimensionAttributeValueCombination | ZeroMore |
 
 ---
 
-*Generated on 2025-10-17 13:33*
+*Generated on 2025-10-17 15:42*

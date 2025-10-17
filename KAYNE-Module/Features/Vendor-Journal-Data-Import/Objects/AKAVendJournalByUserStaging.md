@@ -6,15 +6,15 @@
 
 | Field Name | Type | Mandatory | Description |
 |------------|------|-----------|-------------|
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
+| DefinitionGroup | N/A |  |  |
+| ExecutionId | N/A |  |  |
+| IsSelected | N/A |  |  |
+| TransferStatus | N/A |  |  |
+| Company | N/A |  |  |
+| JournalName | N/A |  |  |
+| UserId | N/A |  |  |
+| PersonnelNumber | N/A |  |  |
 
 ---
 
-*Generated on 2025-10-17 13:33*
+*Generated on 2025-10-17 15:42*

@@ -8,15 +8,15 @@
 
 | Field Name | Type | Mandatory | Description |
 |------------|------|-----------|-------------|
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
+| Deal | N/A |  |  |
+| Department | N/A |  |  |
+| LegalEntity | N/A |  |  |
+| Location | N/A |  |  |
+| People | N/A |  |  |
+| Type | N/A |  |  |
+| Vendor | N/A |  |  |
+| YearCashNonCash | N/A |  |  |
 
 ---
 
-*Generated on 2025-10-17 13:33*
+*Generated on 2025-10-17 15:42*

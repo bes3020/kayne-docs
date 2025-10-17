@@ -6,8 +6,40 @@
 
 | Method Name | Static | Return Type | Parameters |
 |-------------|--------|-------------|------------|
-|  |  | void | none |
+| initializeProjCostTrans |  | ProjCostTrans | none |
+
+## Declaration Code
+
+```xpp
+
+[ExtensionOf(classStr(ProjPostCostTrans_AdjNeg))]
+final class ProjPostCostTrans_AdjNegAKA_Extension
+{
+}
+
+```
+
+## Key Methods Source
+
+### initializeProjCostTrans
+
+```xpp
+
+    protected ProjCostTrans initializeProjCostTrans()
+    {
+        ProjCostTrans local = next initializeProjCostTrans();
+
+        local.AKATrackingID = projCostTrans.AKATrackingID;
+        local.AKATrackingIDCompany = projCostTrans.AKATrackingIDCompany;
+
+        local.TransDate = this.parmAdjustmentDate();
+
+        return local;
+    }
+
+
+```
 
 ---
 
-*Generated on 2025-10-17 13:33*
+*Generated on 2025-10-17 15:42*

@@ -6,8 +6,18 @@
 
 | Field Name | Type | Mandatory | Description |
 |------------|------|-----------|-------------|
-|  | N/A |  |  |
+| MainAccountId | N/A |  |  |
+
+## Declaration Code
+
+```xpp
+
+public class AKAMainAccountsMaskEntity extends common
+{
+}
+
+```
 
 ---
 
-*Generated on 2025-10-17 13:33*
+*Generated on 2025-10-17 15:42*

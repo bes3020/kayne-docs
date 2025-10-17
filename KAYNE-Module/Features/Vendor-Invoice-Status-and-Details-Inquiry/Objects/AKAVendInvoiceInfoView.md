@@ -6,11 +6,21 @@
 
 | Field Name | Type | Mandatory | Description |
 |------------|------|-----------|-------------|
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
+| Vendor | N/A |  |  |
+| InvoiceId | N/A |  |  |
+| TransDate | N/A |  |  |
+| Company | N/A |  |  |
+
+## Declaration Code
+
+```xpp
+
+public class AKAVendInvoiceInfoView extends common
+{
+}
+
+```
 
 ---
 
-*Generated on 2025-10-17 13:33*
+*Generated on 2025-10-17 15:42*

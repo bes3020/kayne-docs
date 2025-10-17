@@ -6,8 +6,32 @@
 
 | Method Name | Static | Return Type | Parameters |
 |-------------|--------|-------------|------------|
-|  |  | void | none |
+| run |  | void | none |
+
+## Declaration Code
+
+```xpp
+
+class AKAProjAdjustmentBatchPostTask extends RunBaseBatch
+{
+}
+
+```
+
+## Key Methods Source
+
+### run
+
+```xpp
+
+    void run()
+    {
+        infolog.setInfoLogLevel(SysInfoLogLevel::All);
+    }
+
+
+```
 
 ---
 
-*Generated on 2025-10-17 13:33*
+*Generated on 2025-10-17 15:42*

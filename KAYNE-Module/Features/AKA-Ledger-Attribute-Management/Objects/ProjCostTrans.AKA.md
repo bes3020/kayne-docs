@@ -8,16 +8,16 @@
 
 | Field Name | Type | Mandatory | Description |
 |------------|------|-----------|-------------|
-|  | N/A |  |  |
-|  | N/A |  |  |
+| AKATrackingID | N/A |  |  |
+| AKATrackingIDCompany | N/A |  |  |
 
 ## Relations
 
 | Relation Name | Related Table | Cardinality |
 |---------------|---------------|-------------|
-|  | N/A | N/A |
-|  | N/A | N/A |
+| AKADefaultDimensionNameValueView | AKADefaultDimensionNameValueView | ZeroMore |
+| AKAVendTransInvoicePaymentView | AKAVendTransInvoicePaymentView | ZeroMore |
 
 ---
 
-*Generated on 2025-10-17 13:33*
+*Generated on 2025-10-17 15:42*

@@ -6,8 +6,22 @@
 
 | Method Name | Static | Return Type | Parameters |
 |-------------|--------|-------------|------------|
-|  |  | void | none |
+| classDeclaration |  | void | none |
+
+## Key Methods Source
+
+### classDeclaration
+
+```xpp
+
+[Query]
+public class AKAVendInvoiceQuery extends QueryRun
+{
+}
+
+
+```
 
 ---
 
-*Generated on 2025-10-17 13:33*
+*Generated on 2025-10-17 15:42*

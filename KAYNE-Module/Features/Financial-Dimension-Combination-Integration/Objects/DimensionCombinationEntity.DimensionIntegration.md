@@ -8,26 +8,26 @@
 
 | Field Name | Type | Mandatory | Description |
 |------------|------|-----------|-------------|
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
-|  | N/A |  |  |
+| Deal | N/A |  |  |
+| Department | N/A |  |  |
+| LegalEntity | N/A |  |  |
+| Location | N/A |  |  |
+| People | N/A |  |  |
+| Type | N/A |  |  |
+| Vendor | N/A |  |  |
+| YearCashNonCash | N/A |  |  |
 
 ## Relations
 
 | Relation Name | Related Table | Cardinality |
 |---------------|---------------|-------------|
-|  | N/A | N/A |
-|  | N/A | N/A |
-|  | N/A | N/A |
-|  | N/A | N/A |
-|  | N/A | N/A |
-|  | N/A | N/A |
+| YearCashNonCash |  | ZeroOne |
+| Person |  | ZeroMore |
+| Type |  | ZeroOne |
+| LegalEntity |  | ZeroMore |
+| Department |  | ZeroMore |
+| Location |  | ZeroMore |
 
 ---
 
-*Generated on 2025-10-17 13:33*
+*Generated on 2025-10-17 15:42*
